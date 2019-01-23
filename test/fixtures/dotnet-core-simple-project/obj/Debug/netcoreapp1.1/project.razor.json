@@ -1,0 +1,6 @@
+{
+  "ProjectFilePath": "/Users/lili/www/dotnet-deps-parser/test/fixtures/dotnet-core-simple-project/simple-project.csproj",
+  "TargetFramework": "netcoreapp1.1",
+  "TagHelpers": [],
+  "Configuration": null
+}

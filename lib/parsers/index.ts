@@ -339,3 +339,13 @@ export function getTargetFrameworksFromProjectConfig(manifestFile) {
 
   return targetFrameworksResult;
 }
+
+export function getTargetFrameworksFromProjectJson(manifestFile) {
+  const targetFrameworksResult: string[] = [];
+  const frameworks = _.get(manifestFile, 'frameworks', {});
+  for (const framework of Object.keys(frameworks)) {
+    targetFrameworksResult.push(framework);
+  }
+
+  return targetFrameworksResult;
+}
